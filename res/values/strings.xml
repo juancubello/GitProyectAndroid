@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World, GitProyectAndroidActivity!</string>
     <string name="app_name">GitProyectAndroid</string>
+    <string name="textocelda">Celda</string>
 
 </resources>
