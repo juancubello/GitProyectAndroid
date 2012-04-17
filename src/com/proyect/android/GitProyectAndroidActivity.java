@@ -8,6 +8,8 @@ public class GitProyectAndroidActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_con_relative);
+        //setContentView(R.layout.main);
+        //setContentView(R.layout.main_con_relative);
+        setContentView(R.layout.main_con_estilos);
     }
 }

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Estructura de tabla con RelativeLayout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        	android:id="@+id/text1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/rojo"
+	        android:textSize="30sp"
+	        android:textStyle="bold"
+	        android:typeface="normal"
+	        android:text="Primero!" 
+	        android:gravity="left"/>
+    
+    <TextView
+        	android:id="@+id/text1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/blanco"
+	        android:textSize="20sp"
+	        android:textStyle="italic"
+	        android:text="Segundo!" 
+	        android:gravity="center"/>
+    
+    <TextView
+        	android:id="@+id/text1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/verde"
+	        android:textSize="30sp"
+	        android:textStyle="italic|bold"
+	        android:typeface="monospace"
+	        android:text="Tercero!" 
+	        android:gravity="right"/>
+    
+    <TextView
+        	android:id="@+id/text1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/amarillo"
+	        android:textSize="15sp"
+	        android:typeface="sans"
+	        android:text="Último!" 
+	        android:gravity="center"/>
+    
+</LinearLayout>
+
